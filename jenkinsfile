@@ -31,5 +31,12 @@
                     echo "hi this is divya from local windos "
                 }
             }
+
+
+            stage ('Hope stage'){
+                steps{
+                    echo "Hi i am Hope "
+                }
+            }
         }
     }
