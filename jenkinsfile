@@ -38,5 +38,11 @@
                     echo "Hi i am Hope "
                 }
             }
+
+            stage ('Benedcte stage ') {
+                steps{
+                    echo "HI i am Benedicte"
+                }
+            }
         }
     }
