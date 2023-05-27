@@ -22,7 +22,7 @@
             
             stage ('Hello konu '){
             steps{
-            echo "Hii  konu , Hi Benidicte"
+            echo "Hii konu , Hi Benidicte"
             }
             }
 
