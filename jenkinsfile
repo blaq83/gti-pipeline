@@ -1,29 +1,35 @@
-pipeline {
-    agent any
+    pipeline {
+        agent any
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-    
-        }
-        stage('im here for your money') {
-            steps {
-                echo 'bring the money'
-                
-            }
-        }
-        stage(' i m here hope'){
-        steps{
-            echo "hello Hope "
-        }
-        }
+        stages {
+            stage('Hello') {
+                steps {
+                    echo 'Hello World'
+                }
         
-        stage ('Hello konu '){
-        steps{
-         echo "Hii  konu , Hi Benidicte"
-        }
+            }
+            stage('im here for your money') {
+                steps {
+                    echo 'bring the money'
+                    
+                }
+            }
+            stage(' i m here hope'){
+            steps{
+                echo "hello Hope "
+            }
+            }
+            
+            stage ('Hello konu '){
+            steps{
+            echo "Hii  konu , Hi Benidicte"
+            }
+            }
+
+            stage ( 'Divya stage '){
+                steps{
+                    echo "hi this is divya from local windos "
+                }
+            }
         }
     }
-}
