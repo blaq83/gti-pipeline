@@ -87,6 +87,12 @@
                     echo "HI i am Benedicte"
                 }
             }
+
+            stage ('andytech') {
+                steps{
+                    echo "im andy the money bag"
+                }
+            }
         }
     }
 
