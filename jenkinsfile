@@ -8,7 +8,7 @@
                 }
         
             }
-            stage('im here for your money') {
+            stage('im here for your money'){
                 steps {
                     echo 'bring the money'
                     
@@ -51,7 +51,7 @@
                 }
         
             }
-            stage('im here for your money') {
+            stage('im here for your money'){
                 steps {
                     echo 'bring the money'
                     
@@ -82,13 +82,13 @@
                 }
             }
 
-            stage ('Benedcte stage ') {
+            stage ('Benedcte stage '){
                 steps{
                     echo "HI i am Benedicte"
                 }
             }
 
-            stage ('andytech') {
+            stage ('andytech'){
                 steps{
                     echo "im andy the money bag"
                 }
