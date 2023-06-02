@@ -8,12 +8,12 @@
                 }
         
             }
-        stage('taking a permission ') {
-                steps {
-                    input("you want to continue ? ")
-                }
+        // stage('taking a permission ') {
+        //         steps {
+        //             input("you want to continue ? ")
+        //         }
         
-            }
+        //     }
             stage('im here for your money'){
                 steps {
                     echo 'bring the money'
