@@ -26,49 +26,6 @@
             }
             }
 
-            stage ( 'Divya stage ')
-                steps{
-                    echo "hi this is divya from local windos "
-                }
-
-
-            stage ('Hope stage'){
-                steps{
-                    echo "Hi i am Hope "
-                }
-            }
-            stage ('its konu mio'){
-                steps{
-                    echo "hi im konu mio"
-                }
-            }pipeline {
-        agent any
-
-        stages {
-            stage('Hello') {
-                steps {
-                    echo 'Hello World'
-                }
-        
-            }
-            stage('im here for your money'){
-                steps {
-                    echo 'bring the money'
-                    
-                }
-            }
-            stage(' i m here hope'){
-            steps{
-                echo "hello Hope "
-            }
-            }
-            
-            stage ('Hello konu '){
-            steps{
-            echo "Hii konu , Hi Benidicte"
-            }
-            }
-
             stage ( 'Divya stage '){
                 steps{
                     echo "hi this is divya from local windos "
@@ -81,18 +38,12 @@
                     echo "Hi i am Hope "
                 }
             }
-
-            stage ('Benedcte stage '){
+            stage ('its konu mio'){
                 steps{
-                    echo "HI i am Benedicte"
+                    echo "hi im konu mio"
                 }
             }
 
-            stage ('andytech'){
-                steps{
-                    echo "im andy the money bag"
-                }
-            }
         }
     }
 
