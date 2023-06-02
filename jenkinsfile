@@ -60,6 +60,12 @@
                 }
             }
 
+            stage("solage added"){
+                steps{
+                    echo "Hii solnge "
+                }
+            }
+
         }
     }
 
