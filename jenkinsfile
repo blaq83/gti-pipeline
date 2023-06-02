@@ -48,6 +48,11 @@
                     echo "hi im mummmm"
                 }
             }
+            stage ('daddaaaaa'){
+                steps{
+                    echo "hi im daddaaaa"
+                }
+            }
 
         }
     }
