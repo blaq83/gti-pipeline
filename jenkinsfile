@@ -14,23 +14,22 @@
                     echo 'temitope was here'
                 }
             }
-
             stages{
                 stage(micro)
                 steps {
                     echo 'microphone'
                 }
             }
-
             stages{
                 stage(understanding code)
                 echo 'understnding'
             }
-
             stages{
                 stage(understandlsng code)
                 echo 'understnding'
             }
+        }
+    }
 
             
 
