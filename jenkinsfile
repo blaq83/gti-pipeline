@@ -8,70 +8,32 @@
                 }
         
             }
-        // stage('taking a permission ') {
-        //         steps {
-        //             input("you want to continue ? ")
-        //         }
-        
-        //     }
-            stage('im here for your money'){
+            stages{
+                stage(temitope)
                 steps {
-                    echo 'bring the money'
-                    
+                    echo 'temitope was here'
                 }
             }
-            stage(' i m here hope'){
-            steps{
-                echo "hello Hope "
+
+            stages{
+                stage(micro)
+                steps {
+                    echo 'microphone'
+                }
             }
+
+            stages{
+                stage(understanding code)
+                echo 'understnding'
             }
+
+            stages{
+                stage(understandlsng code)
+                echo 'understnding'
+            }
+
             
-            stage ('Hello konu '){
-            steps{
-            echo "Hii konu , Hi Benidicte"
-            }
-            }
 
-            stage ( 'Divya stage '){
-                steps{
-                    echo "hi this is divya from local windos "
-                }
-            }
-
-
-            stage ('Hope stage'){
-                steps{
-                    echo "Hi i am Hope "
-                }
-            }
-            stage ('its konu mio'){
-                steps{
-                    echo "hi im konu mio"
-                }
-            }
-            stage ('mummmm'){
-                steps{
-                    echo "hi im mummmm"
-                }
-            }
-            stage ('daddaaaaa'){
-                steps{
-                    echo "hi im daddaaaa"
-                }
-            }
-
-            stage("solage added"){
-                steps{
-                    echo "Hii solnge "
-                }
-            }
-              stage("solage added to this batch"){
-                steps{
-                    echo "Hii solange "
-                }
-            }
-
-        }
-    }
+        
 
             
