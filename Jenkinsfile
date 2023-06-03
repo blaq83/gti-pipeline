@@ -6,21 +6,22 @@ pipeline {
                 echo 'Hello me'
             }
         }
-        stage(TemiTope) {
+        stage('TemiTope') {
             steps {
                 echo 'temitope was here'
             }
         }
-        stage(micro) {
+        stage('micro') {
             steps {
                 echo 'microne'
             }
         }
-        stage (UnderstandingCode) {
+        
+        stage ('UnderstandingCode') {
             steps {
                 echo 'understnding'
             }
         }
-        
+
     }
 }
