@@ -1,5 +1,4 @@
 pipeline {
-
     agent any
     stages {
         stage('Hello') {
@@ -7,23 +6,21 @@ pipeline {
                 echo 'Hello me'
             }
         }
-        stages{
-            stage(temiope)
+        stage(TemiTope) {
             steps {
                 echo 'temitope was here'
             }
         }
-        stages{
-            stage(micro)
+        stage(micro) {
             steps {
                 echo 'microne'
             }
         }
-        stages{
-            stage {understanding code}
+        stage (understanding code) {
             steps {
                 echo 'understnding'
             }
         }
+        
     }
 }
