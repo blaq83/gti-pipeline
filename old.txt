@@ -1,0 +1,29 @@
+pipeline {
+
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello me'
+            }
+        }
+        stages{
+            stage(temiope)
+            steps {
+                echo 'temitope was here'
+            }
+        }
+        stages{
+            stage(micro)
+            steps {
+                echo 'microne'
+            }
+        }
+        stages{
+            stage {understanding code}
+            steps {
+                echo 'understnding'
+            }
+        }
+    }
+}
