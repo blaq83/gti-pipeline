@@ -16,7 +16,7 @@ pipeline {
                 echo 'microne'
             }
         }
-        stage (understanding code) {
+        stage (UnderstandingCode) {
             steps {
                 echo 'understnding'
             }
