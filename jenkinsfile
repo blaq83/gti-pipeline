@@ -1,38 +1,29 @@
-    pipeline {
-        agent any
+pipeline {
 
-        stages {
-            stage('Hello') {
-                steps {
-                    echo 'Hello World'
-                }
-        
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello me'
             }
-            stages{
-                stage(temitope)
-                steps {
-                    echo 'temitope was here'
-                }
+        }
+        stages{
+            stage(temiope)
+            steps {
+                echo 'temitope was here'
             }
-            stages{
-                stage(micro)
-                steps {
-                    echo 'microphone'
-                }
+        }
+        stages{
+            stage(micro)
+            steps {
+                echo 'microne'
             }
-            stages{
-                stage(understanding code)
-                echo 'understnding'
-            }
-            stages{
-                stage(understandlsng code)
+        }
+        stages{
+            stage {understanding code}
+            steps {
                 echo 'understnding'
             }
         }
     }
-
-            
-
-        
-
-            
+}
